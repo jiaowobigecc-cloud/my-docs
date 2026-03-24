@@ -19,7 +19,12 @@ export default defineConfig({
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },{
+    text: '面试指南',
+    items: [
+      { text: '京东一面复盘', link: '/interview' } // 👈 指向你刚建的文件
+    ]
+  }
     ],
 
     socialLinks: [
