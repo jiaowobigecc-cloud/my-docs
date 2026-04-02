@@ -22,7 +22,8 @@ export default defineConfig({
       },{
     text: '面试指南',
     items: [
-      { text: '京东一面复盘', link: '/interview' } // 👈 指向你刚建的文件
+      { text: '京东一面复盘', link: '/interview' } ,// 👈 指向你刚建的文件
+      { text: '我的测试Demo', link: '/demoRead' }
     ]
   }
     ],
